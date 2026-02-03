@@ -1,5 +1,5 @@
-import catalogRaw from '../../../data/catalog.json'
-import indexRaw from '../../../skills_index.json'
+import catalogRaw from '@/data/catalog.json'
+import indexRaw from '@/data/skills_index.json'
 import type { CatalogData, IndexSkill, Skill } from '@/types'
 
 const catalog = catalogRaw as CatalogData
