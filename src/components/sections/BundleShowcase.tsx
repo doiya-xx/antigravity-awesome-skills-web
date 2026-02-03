@@ -5,7 +5,7 @@ import { SectionHeading } from '@/components/shared/SectionHeading'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { BUNDLE_LABELS } from '@/data/constants'
-import bundlesRaw from '../../../../data/bundles.json'
+import bundlesRaw from '@data/bundles.json'
 import type { BundlesData } from '@/types'
 
 const bundlesData = bundlesRaw as BundlesData
